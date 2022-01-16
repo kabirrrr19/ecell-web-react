@@ -1,0 +1,30 @@
+
+
+.clients {
+  background: #f2f2f2;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.clients img {
+  width: 50%;
+  /* Changes made 3 -- remove grayscale before hover */
+  filter: grayscale(0%);
+  /* end of change 3 */
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  opacity: 1;
+  z-index: 4;
+}
+
+.clients img:hover {
+  filter: none;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .clients img {
+    width: 60%;
+  }
+}
