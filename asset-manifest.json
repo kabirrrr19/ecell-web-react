@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/github.io/ecell-web-react/static/css/main.4d4d823a.css",
-    "main.js": "/github.io/ecell-web-react/static/js/main.a181938f.js",
-    "static/js/787.977b58bb.chunk.js": "/github.io/ecell-web-react/static/js/787.977b58bb.chunk.js",
-    "static/media/cta-bg.jpg": "/github.io/ecell-web-react/static/media/cta-bg.edececeabc29d1439ce8.jpg",
-    "static/media/darth-vader.jpg": "/github.io/ecell-web-react/static/media/darth-vader.be00bf623548f09a688e.jpg",
-    "index.html": "/github.io/ecell-web-react/index.html",
-    "main.4d4d823a.css.map": "/github.io/ecell-web-react/static/css/main.4d4d823a.css.map",
-    "main.a181938f.js.map": "/github.io/ecell-web-react/static/js/main.a181938f.js.map",
-    "787.977b58bb.chunk.js.map": "/github.io/ecell-web-react/static/js/787.977b58bb.chunk.js.map"
+    "main.css": "/ecell-web-react/static/css/main.54603c3a.css",
+    "main.js": "/ecell-web-react/static/js/main.155d2272.js",
+    "static/js/787.977b58bb.chunk.js": "/ecell-web-react/static/js/787.977b58bb.chunk.js",
+    "static/media/cta-bg.jpg": "/ecell-web-react/static/media/cta-bg.edececeabc29d1439ce8.jpg",
+    "static/media/darth-vader.jpg": "/ecell-web-react/static/media/darth-vader.be00bf623548f09a688e.jpg",
+    "index.html": "/ecell-web-react/index.html",
+    "main.54603c3a.css.map": "/ecell-web-react/static/css/main.54603c3a.css.map",
+    "main.155d2272.js.map": "/ecell-web-react/static/js/main.155d2272.js.map",
+    "787.977b58bb.chunk.js.map": "/ecell-web-react/static/js/787.977b58bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d4d823a.css",
-    "static/js/main.a181938f.js"
+    "static/css/main.54603c3a.css",
+    "static/js/main.155d2272.js"
   ]
 }
