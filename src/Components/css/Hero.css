@@ -6,6 +6,16 @@
   position: relative;
 }
 
+#scrollToAbout {
+  color: #cc1616;
+  background-color: transparent;
+}
+
+#scrollToAbout:hover {
+  color: #e82d2d;
+  text-decoration: none;
+}
+
 #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.5);

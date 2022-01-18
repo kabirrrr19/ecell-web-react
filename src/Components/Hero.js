@@ -15,9 +15,9 @@ export default function Hero() {
               We are promoting entrepreneuriship to the fostering talents of the
               country.
             </h2>
-            <a href="" className="btn-get-started scrollto">
+            <button id="scrollToAbout" className="btn-get-started scrollto">
               Get Started
-            </a>
+            </button>
           </div>
         </section>
       </div>
