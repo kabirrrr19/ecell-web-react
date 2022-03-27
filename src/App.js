@@ -1,35 +1,31 @@
 import './App.css';
-import Topbar from "./Components/Topbar.js";
-import Header from "./Components/Header.js";
-import Hero from "./Components/Hero.js";
-import About from "./Components/About.js";
-import Whyus from "./Components/Whyus.js";
-import Clients from "./Components/Clients.js";
-import Services from "./Components/Services.js";
-import Cta from "./Components/Cta.js";
-import Portfolio from "./Components/Portfolio.js";
-import Pricing from "./Components/Pricing.js";
-import Teams from "./Components/Teams.js";
-import Contacts from "./Components/Contacts.js";
-import Footer from "./Components/Footer.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Topbar from "./Components/Home/Topbar/Topbar.js";
+import Header from "./Components/Home/Header/Header.js";
+
+import Footer from "./Components/Home/Footer/Footer.js";
+import Esummit from "./Components/ESummit/Esummit.js" 
+import Home from "./Components/Home/Home"
 
 function App() {
   return (
-    <div className="App">
+    //   <div className="App">
+    //     <Topbar />
+    //     <Header />
+    //     <Home />
+    //     <Esummit />
+    //     <Footer />
+    //   </div>
+
+    <BrowserRouter>
       <Topbar />
       <Header />
-      <Hero />
-      <About />
-      <Whyus />
-      <Clients />
-      <Services />
-      <Cta />
-      <Portfolio />
-      <Pricing />
-      <Teams />
-      <Contacts />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="Esummit" element={<Esummit />} />
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,22 @@
+@import "react-slideshow-image/dist/styles.css";
+
+
+.App {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  color: #fff;
+  margin: 0 15px;
+  font-size: 4em;
+  border-radius: 10%;
+}
